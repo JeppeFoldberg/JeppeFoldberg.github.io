@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
-  min-height: 100vh;
+  height: 100vh;
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
@@ -15,7 +15,8 @@ img {
 
 video {
     align-items: center;
-    width: auto;
+    width: 100%;
+    height: auto;
     border-radius: 10px; 
     overflow: hidden;
 }
@@ -54,7 +55,7 @@ ul {
 }
 
 .footer{
-  background: #eeeeee;
+  background: #666666;
 }
 
 .content {
@@ -67,7 +68,7 @@ ul {
 
 /* giving content a flew grow value! */
 a {
-  color: #666;
+  color: #901A1E;
   text-decoration: none;
 }
 
