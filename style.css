@@ -1,10 +1,11 @@
 body {
     margin: 0;
-    background-color: lightslategray;
+    background-color: white;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
 }
-
+/* rgb(144 26 30) <- kurød */
+/* rgb(102 102 102) <- kurød */
 .video-mask{
     width: 1080px;
     border-radius: 10px; 
