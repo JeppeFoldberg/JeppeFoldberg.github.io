@@ -1,6 +1,12 @@
 body {
     margin: 0;
-    background-color: antiquewhite;
+    background-color: lightslategray;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
+}
+
+.video-mask{
+    width: 350px;
+    border-radius: 10px; 
+    overflow: hidden; 
 }
