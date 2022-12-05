@@ -6,7 +6,7 @@ body {
 }
 
 .video-mask{
-    width: 350px;
+    width: 1080px;
     border-radius: 10px; 
     overflow: hidden; 
 }
