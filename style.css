@@ -1,4 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  width: 600px;
+}
+
+button {
+  font-family: Roboto, sans-serif;
+  border: none;
+  border-radius: 8px;
+  background: #eee;
+  padding: 8px 16px;
+}
+
+input {
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  padding: 8px 24px;
+  width: 400px;
+  margin-bottom: 16px;
+}
+
+ul {
+  /* remove list bullets! */
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
+
+.header, 
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.footer{
+  background: #eeeeee;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column wrap;
+}
+
+/* things i should have thought of */
+/* giving content a flew grow value! */
+a {
+  color: #666;
+  text-decoration: none;
+}
+
+/* body {
     margin: 0;
     background-color: white;
     font-family: 'Times New Roman', Times, serif;
@@ -6,8 +73,8 @@ body {
 }
 /* rgb(144 26 30) <- kurød */
 /* rgb(102 102 102) <- kurød */
-.video-mask{
+/* .video-mask{
     width: 1080px;
     border-radius: 10px; 
     overflow: hidden; 
-}
+} */ */
